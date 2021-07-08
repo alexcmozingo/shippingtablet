@@ -1,6 +1,14 @@
 .button.move{margin-left:50px;}
 
-#body
-    {
-        column-count: 4;
-    }
+.column {
+    float: left;
+    width: 25%;
+    border: 10px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
